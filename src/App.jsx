@@ -1,9 +1,14 @@
 import "./styles/tailwind.css";
 
 // pages
+import Intro from "./pages/Intro";
 
 function App() {
-  return <div>x</div>;
+  return (
+    <div>
+      <Intro />
+    </div>
+  );
 }
 
 export default App;
