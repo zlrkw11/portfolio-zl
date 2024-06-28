@@ -5,7 +5,7 @@ import Intro from "./pages/Intro";
 
 function App() {
   return (
-    <div>
+    <div className="bg-black h-screen">
       <Intro />
     </div>
   );
