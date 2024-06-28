@@ -1,5 +1,7 @@
 import "./styles/tailwind.css";
 
+// pages
+
 function App() {
   return <div>x</div>;
 }
