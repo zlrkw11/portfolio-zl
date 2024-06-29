@@ -28,6 +28,7 @@ export default {
         "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       "text-slide-8":
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
+      typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
     },
     keyframes: {
       "text-slide-2": {
@@ -168,6 +169,23 @@ export default {
         },
         "100%": {
           transform: "translateY(-88.88%)",
+        },
+      },
+      typing: {
+        "0%": {
+          width: "0%",
+          visibility: "hidden",
+        },
+        "100%": {
+          width: "100%",
+        },
+      },
+      blink: {
+        "50%": {
+          borderColor: "transparent",
+        },
+        "100%": {
+          borderColor: "white",
         },
       },
     },
