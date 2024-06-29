@@ -6,9 +6,9 @@ function Navbar() {
         <div className="font-bold text-2xl cursor-pointer flex items-center">
           Navbar text
         </div>
-        <ul>
+        <ul className="md:flex md:items-center ml-auto">
           {Links.map((link) => (
-            <li key={link.name}>
+            <li key={link.name} className="mr-8 text-xl font-semibold">
               <a href={link.link}>{link.name}</a>
             </li>
           ))}
