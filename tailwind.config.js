@@ -12,6 +12,64 @@ export default {
       },
       fontFamily: {
         inter: ["inter", "sans-serif"],
+        fontSize: {
+          h1: [
+            "3.125rem",
+            {
+              lineHeight: "normal",
+              fontWeight: "900",
+              letterSpacing: "-0.219rem",
+            },
+          ],
+          h2: [
+            "2.375rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "-0.16625rem",
+              fontWeight: "700",
+            },
+          ],
+          h3: [
+            "1.75rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "-0.123rem",
+              fontWeight: "700",
+            },
+          ],
+          h4: [
+            "1.313rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "-0.092rem",
+              fontWeight: "400",
+            },
+          ],
+          h5: [
+            "0.75rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "0.045rem",
+              fontWeight: "500",
+            },
+          ],
+          p: [
+            "1rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "-0.07rem",
+              fontWeight: "400",
+            },
+          ],
+          small: [
+            "0.75rem",
+            {
+              lineHeight: "normal",
+              letterSpacing: "-0.015rem",
+              fontWeight: "400",
+            },
+          ],
+        },
       },
     },
     animation: {
@@ -28,7 +86,7 @@ export default {
         "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       "text-slide-8":
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
-      typing: "typing 3s steps(40), blink .7s",
+      typing: "typing 3s steps(60), blink .6s",
     },
     keyframes: {
       "text-slide-2": {
