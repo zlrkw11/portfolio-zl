@@ -2,7 +2,7 @@ function Intro() {
   return (
     <div className="flex items-center justify-center p-10 h-auto ">
       <div className="w-max">
-        <h3 className=" animate-typing overflow-hidden whitespace-nowrap pr-5 text-5xl text-white font-bold">
+        <h3 className=" animate-typing overflow-hidden whitespace-nowrap pr-5 text-5xl text-white font-bold glow shadow-lg">
           Hello, I am Ray.
         </h3>
       </div>
