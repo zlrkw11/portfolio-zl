@@ -1,7 +1,7 @@
 import "./styles/tailwind.css";
 
 // pages
-import Intro from "./pages/Intro";
+import Intro from "./components/Intro";
 
 function App() {
   return (
