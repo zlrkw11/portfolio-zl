@@ -13,7 +13,10 @@ function Navbar() {
         </div>
         <ul className="md:flex md:items-center ml-auto">
           {Links.map((link) => (
-            <li key={link.name} className="mr-8 text-xl font-semibold">
+            <li
+              key={link.name}
+              className="border boder-black mr-8 text-xl font-semibold"
+            >
               <a href={link.link}>{link.name}</a>
             </li>
           ))}
