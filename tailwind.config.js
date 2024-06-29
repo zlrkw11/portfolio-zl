@@ -28,7 +28,7 @@ export default {
         "text-slide-7 17.5s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       "text-slide-8":
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
-      typing: "typing 2s steps(20) infinite alternate, blink .7s infinite",
+      typing: "typing 3s steps(30), blink .7s",
     },
     keyframes: {
       "text-slide-2": {
