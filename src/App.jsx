@@ -1,12 +1,12 @@
 import "./styles/tailwind.css";
 
 // pages
-import Intro from "./components/Intro";
+import Main from "./pages/Main";
 
 function App() {
   return (
-    <div className="bg-black h-screen">
-      <Intro />
+    <div className="">
+      <Main />
     </div>
   );
 }

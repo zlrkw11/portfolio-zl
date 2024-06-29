@@ -3,6 +3,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "dark-0": "#272829",
+        "dark-1": "#303841",
+        "dark-2": "#3A4750",
+        cyan: "#00ADB5",
+        "white-2": "EEEEEE",
+      },
       fontFamily: {
         inter: ["inter", "sans-serif"],
       },
