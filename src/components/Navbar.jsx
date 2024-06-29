@@ -1,10 +1,15 @@
 function Navbar() {
-  let Links = [{ name: "HOME", link: "/" }];
+  let Links = [
+    { name: "Start", link: "/" },
+    { name: "About z.l", link: "/" },
+    { name: "Projects", link: "/" },
+    { name: "Contacts", link: "/" },
+  ];
   return (
     <div className="border border-white shadow-md w-full fixed top-0 left-0">
       <div className="md:flex bg-white py-4">
         <div className="font-bold text-2xl cursor-pointer flex items-center">
-          Navbar text
+          [zlrkw11 logo]
         </div>
         <ul className="md:flex md:items-center ml-auto">
           {Links.map((link) => (
