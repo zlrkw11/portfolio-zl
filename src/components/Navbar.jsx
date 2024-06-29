@@ -6,17 +6,14 @@ function Navbar() {
     { name: "Contacts", link: "/" },
   ];
   return (
-    <div className="border border-white w-full fixed top-0 left-0">
-      <div className="md:flex backdrop-blur-md py-4 text-white">
-        <div className="font-bold text-2xl cursor-pointer flex items-center">
+    <div className="  w-full fixed top-0 left-0">
+      <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg">
+        <div className="font-bold text-2xl cursor-pointer flex items-center ">
           [zlrkw11 logo]
         </div>
-        <ul className="md:flex md:items-center ml-auto">
+        <ul className="md:flex md:items-center ml-auto  ">
           {Links.map((link) => (
-            <li
-              key={link.name}
-              className="border boder-black mr-8 text-xl font-semibold "
-            >
+            <li key={link.name} className=" mr-8 text-xl font-semibold">
               <a href={link.link}>{link.name}</a>
             </li>
           ))}
