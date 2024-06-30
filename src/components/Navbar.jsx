@@ -7,9 +7,9 @@ function Navbar() {
   }
   return (
     <div className="w-full fixed top-0 left-0">
-      <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg items-center grid-cols-2">
+      <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg items-center grid-cols-2 grid">
         <Dragon
-          className="w-12 fill-white md:w-12"
+          className="w-12 fill-white md:w-12 ml-4"
           style={{
             filter:
               "drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 25px #ffffff) drop-shadow(0 0 50px #ffffff) drop-shadow(0 0 100px #ffffff)",
@@ -17,11 +17,11 @@ function Navbar() {
         />
 
         <div className="flex items-center">
-          <div className="cursor-pointer flex items-center ">
+          <div className="cursor-pointer flex items-center">
             <Dragon />
           </div>
           <button
-            className="text-white ml-auto mr-8 md:hidden"
+            className="text-white ml-auto mr-8 md:hidden link-red"
             onClick={handleOnClick}
           >
             expand
@@ -49,7 +49,7 @@ function Navbar() {
         } transition-transform duration-300 ease-in-out md:hidden gap-4 `}
       >
         <button
-          className="text-white m-4 hover:shadow-white"
+          className="text-white m-4 hover:shadow-white link-red"
           onClick={handleOnClick}
         >
           close
