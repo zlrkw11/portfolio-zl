@@ -13,6 +13,10 @@ export default {
       boxShadow: {
         lg: "0 35px 60px -15px rgba(255,255,255, 0.3)",
       },
+      dropShadow: {
+        lg: "0 35px 60px -15px rgba(255,255,255, 0.3)",
+      },
+
       fontFamily: {
         inter: ["inter", "sans-serif"],
         fontSize: {

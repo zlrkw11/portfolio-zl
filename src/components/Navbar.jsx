@@ -32,17 +32,19 @@ function Navbar() {
         } transition-transform duration-300 ease-in-out md:hidden gap-4 `}
       >
         <button
-          className="text-white m-4 animated-spin"
+          className="text-white m-4 hover:shadow-white"
           onClick={handleOnClick}
         >
           close
         </button>
-        <nav className="flex flex-col p-4 gap-4">
-          <a href="/">Start</a>
+        <div className="flex flex-col p-4 gap-4 ">
+          <a className="link" href="/">
+            Start
+          </a>
           <a href="/">About z.l</a>
           <a href="/">Projects</a>
           <a href="/">Contacts</a>
-        </nav>
+        </div>
       </div>
     </div>
   );
