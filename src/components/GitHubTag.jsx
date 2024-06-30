@@ -1,4 +1,4 @@
-import Logo from "../assets/icons/github-mark-white.svg";
+import Logo from "../assets/icons/github-mark-white.svg?react";
 function GitHubTag() {
   return (
     <div>
