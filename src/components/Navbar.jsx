@@ -19,10 +19,18 @@ function Navbar() {
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
-          <a href="/">Start</a>
-          <a href="/">About z.l</a>
-          <a href="/">Projects</a>
-          <a href="../pages/Contacts">Contacts</a>
+          <a href="/" className="link">
+            Start
+          </a>
+          <a href="/" className="link">
+            About z.l
+          </a>
+          <a href="/" className="link">
+            Projects
+          </a>
+          <a href="../pages/Contacts" className="link">
+            Contacts
+          </a>
         </div>
       </div>
 
@@ -41,9 +49,15 @@ function Navbar() {
           <a className="link" href="/">
             Start
           </a>
-          <a href="/">About z.l</a>
-          <a href="/">Projects</a>
-          <a href="/">Contacts</a>
+          <a href="/" className="link">
+            About z.l
+          </a>
+          <a href="/" className="link">
+            Projects
+          </a>
+          <a href="/" className="link">
+            Contacts
+          </a>
         </div>
       </div>
     </div>
