@@ -22,7 +22,7 @@ function Navbar() {
           <a href="/">Start</a>
           <a href="/">About z.l</a>
           <a href="/">Projects</a>
-          <a href="/">Contacts</a>
+          <a href="../pages/Contacts">Contacts</a>
         </div>
       </div>
 

@@ -90,7 +90,7 @@ export default {
       "text-slide-8":
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       typing: "typing 3s steps(60), blink .6s",
-      "loop-scroll": "loop-scroll 20s linear infinite",
+      "loop-scroll": "loop-scroll 5s linear infinite",
     },
     keyframes: {
       "loop-scroll": {
