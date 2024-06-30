@@ -90,8 +90,13 @@ export default {
       "text-slide-8":
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       typing: "typing 3s steps(60), blink .6s",
+      "loop-scroll": "loop-scroll 20s linear infinite",
     },
     keyframes: {
+      "loop-scroll": {
+        from: { transform: "translateX(0)" },
+        to: { transform: "translateX(-100%)" },
+      },
       "text-slide-2": {
         "0%, 40%": {
           transform: "translateY(0%)",

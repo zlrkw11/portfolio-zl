@@ -27,11 +27,14 @@ function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-24 text-white h-full bg-dark-0 transform ${
+        className={`fixed top-0 left-0 w-24 text-white h-full backdrop-blur-md bg-dark-0 transform ${
           isExpanded ? "translate-x-0 shadow-lg" : "-translate-x-24"
         } transition-transform duration-300 ease-in-out md:hidden gap-4 `}
       >
-        <button className="text-white m-4" onClick={handleOnClick}>
+        <button
+          className="text-white m-4 animated-spin"
+          onClick={handleOnClick}
+        >
           close
         </button>
         <nav className="flex flex-col p-4 gap-4">
