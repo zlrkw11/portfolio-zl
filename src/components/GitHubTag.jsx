@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from "../assets/icons/github-mark-white.svg";
+import Logo from "../assets/icons/github-mark-white.svg";
 function GitHubTag() {
   return (
     <div>
