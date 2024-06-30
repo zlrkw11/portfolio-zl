@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Dragon from "../assets/icons/dragon.svg?react";
 function Navbar() {
   const [isExpanded, setIsExpanded] = useState(false);
   function handleOnClick() {
@@ -7,9 +8,17 @@ function Navbar() {
   return (
     <div className="w-full fixed top-0 left-0">
       <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg">
+        <Dragon
+          className="w-12 "
+          style={{
+            filter:
+              "drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 25px #ffffff) drop-shadow(0 0 50px #ffffff) drop-shadow(0 0 100px #ffffff)",
+          }}
+        />
+
         <div className="flex items-center">
-          <div className="font-bold text-2xl cursor-pointer flex items-center ">
-            [zlrkw11 logo]
+          <div className="cursor-pointer flex items-center ">
+            <Dragon />
           </div>
           <button
             className="text-white ml-auto mr-8 md:hidden"

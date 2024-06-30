@@ -7,6 +7,10 @@
     text-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff,
       0 0 100px #ffffff;
   }
+  .drop-shadow {
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff,
+      0 0 100px #ffffff;
+  }
   .link:hover {
     @apply textshadow;
   }

@@ -15,6 +15,8 @@ export default {
       },
       dropShadow: {
         lg: "0 35px 60px -15px rgba(255,255,255, 0.3)",
+        custom:
+          "0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 100px #ffffff",
       },
 
       fontFamily: {
