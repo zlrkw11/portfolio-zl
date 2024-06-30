@@ -28,8 +28,8 @@ function Navbar() {
 
       <div
         className={`fixed top-0 left-0 w-24 text-white h-full bg-dark-0 transform ${
-          isExpanded ? "translate-x-0" : "-translate-x-24"
-        } transition-transform duration-300 ease-in-out md:hidden gap-4 shadow-lg`}
+          isExpanded ? "translate-x-0 shadow-lg" : "-translate-x-24"
+        } transition-transform duration-300 ease-in-out md:hidden gap-4 `}
       >
         <button className="text-white m-4" onClick={handleOnClick}>
           close
