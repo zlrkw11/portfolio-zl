@@ -7,9 +7,9 @@ function Navbar() {
   }
   return (
     <div className="w-full fixed top-0 left-0">
-      <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg">
+      <div className="md:flex backdrop-blur-md py-4 text-white shadow-lg items-center grid-cols-2">
         <Dragon
-          className="w-12 "
+          className="w-12 fill-white md:w-12"
           style={{
             filter:
               "drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 25px #ffffff) drop-shadow(0 0 50px #ffffff) drop-shadow(0 0 100px #ffffff)",
