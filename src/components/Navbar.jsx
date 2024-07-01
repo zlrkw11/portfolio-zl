@@ -19,10 +19,10 @@ function Navbar() {
 
         <div className="flex items-center">
           <button
-            className="text-white ml-auto mr-8 md:hidden link-red"
+            className="text-white ml-auto mr-8 md:hidden"
             onClick={handleOnClick}
           >
-            <Burger className="w-8 h-8 icon hover:animate-spin" />
+            <Burger className="w-8 h-8 icon" />
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
