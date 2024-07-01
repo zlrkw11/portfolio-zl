@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Dragon from "../assets/icons/dragon.svg?react";
+import Burger from "../assets/icons/burger.svg?react";
 function Navbar() {
   const [isExpanded, setIsExpanded] = useState(false);
   function handleOnClick() {
@@ -25,6 +26,7 @@ function Navbar() {
             onClick={handleOnClick}
           >
             expand
+            <Burger />
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
