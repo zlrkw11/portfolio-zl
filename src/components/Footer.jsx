@@ -16,7 +16,11 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} zlrkw11. All rights reserved</p>
       </div>
       <button className="grid text-white md:hidden" onClick={handleOnClick}>
-        <UpArrow className="fill-white icon" />
+        <UpArrow
+          className={`fill-white icon transition-transform duration-300 ${
+            isRotated ? "rotate-180" : ""
+          }`}
+        />
       </button>
       {/* svg icon links */}
       <div className="hidden md:flex gap-8 group items-center ml-auto mr-8">
@@ -34,7 +38,7 @@ function Footer() {
       <div
         className={`flex flex-col bottom-0 md:hidden transition-transform duration-300 ease-in-out  ${
           isExpanded ? "translate-y-28" : "-translate-y-12"
-        } ${isRotated ? "rotate-180" : ""}`}
+        } `}
       >
         <a href="https://github.com/zlrkw11" className="">
           <Github className="fill-white w-8 cursor-pointer icon" />
