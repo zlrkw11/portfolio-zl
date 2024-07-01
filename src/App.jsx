@@ -4,12 +4,14 @@ import "./styles/tailwind.css";
 import Main from "./pages/Main";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Contacts from "./pages/Contacts";
 
 function App() {
   return (
     <div className="">
       <Navbar />
       <Main />
+      <Contacts />
       <Footer />
     </div>
   );
