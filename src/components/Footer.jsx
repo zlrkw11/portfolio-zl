@@ -37,7 +37,7 @@ function Footer() {
 
       <div
         className={`flex flex-col bottom-0 md:hidden transition-transform duration-300 ease-in-out  ${
-          isExpanded ? "translate-y-28" : "-translate-y-12"
+          isExpanded ? "-translate-y-12" : "translate-y-28"
         } `}
       >
         <a href="https://github.com/zlrkw11" className="">
