@@ -22,7 +22,7 @@ function Navbar() {
             className="text-white ml-auto mr-8 md:hidden link-red"
             onClick={handleOnClick}
           >
-            <Burger className="w-8 h-8 " />
+            <Burger className="w-8 h-8 icon" />
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
