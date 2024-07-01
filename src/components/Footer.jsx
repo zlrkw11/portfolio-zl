@@ -2,6 +2,7 @@ import Github from "../assets/icons/github.svg?react";
 import Insta from "../assets/icons/insta.svg?react";
 import Linkedin from "../assets/icons/linkedin.svg?react";
 import Folder from "../assets/icons/folder.svg?react";
+import UpArrow from "../assets/icons/up.svg?react";
 function Footer() {
   return (
     <div className="h-16 flex md:grid grid-cols-2 items-center justify-center bg-dark-0">
@@ -9,7 +10,7 @@ function Footer() {
         <p>&copy; {new Date().getFullYear()} zlrkw11. All rights reserved</p>
       </div>
       <button className="grid text-white md:hidden ">
-        <Folder className="fill-white border-white" />
+        <UpArrow className="fill-white border-white" />
       </button>
       {/* svg icon links */}
       <div className="hidden md:flex gap-8 group items-center ml-auto mr-8">
