@@ -18,15 +18,11 @@ function Navbar() {
         />
 
         <div className="flex items-center">
-          <div className="cursor-pointer flex items-center">
-            <Dragon />
-          </div>
           <button
             className="text-white ml-auto mr-8 md:hidden link-red"
             onClick={handleOnClick}
           >
-            expand
-            <Burger />
+            <Burger className="w-8 h-8 " />
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
