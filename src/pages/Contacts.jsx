@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 function Contacts() {
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
