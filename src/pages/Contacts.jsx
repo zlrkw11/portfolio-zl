@@ -18,19 +18,19 @@ function Contacts() {
           required
           type="text"
           placeholder="Name"
-          className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit"
+          className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:-translate-x-4"
         ></input>
         <input
           required
           type="text"
           placeholder="Subject"
-          className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit"
+          className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:translate-x-4"
         ></input>
         <input
           required
           type="text"
           placeholder="Subject"
-          className="px-4 py-6 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit"
+          className="px-4 py-6 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:translate-y-4"
         ></input>
         <label />
       </div>
