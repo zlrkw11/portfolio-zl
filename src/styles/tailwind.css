@@ -32,4 +32,8 @@
   .icon:hover {
     @apply drop-shadow-svg;
   }
+
+  .box:hover {
+    @apply drop-shadow;
+  }
 }
