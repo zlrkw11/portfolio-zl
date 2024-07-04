@@ -7,6 +7,8 @@ export default {
         "dark-0": "#272829",
         "dark-1": "#303841",
         "dark-2": "#9a9a9a",
+        "dark-3": "#bbbbbb",
+        "dark-4": "cccccc",
         cyan: "#00ADB5",
         "white-2": "EEEEEE",
       },
