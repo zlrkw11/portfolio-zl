@@ -11,6 +11,12 @@ function Contacts() {
           <h1 className="text-white text-3xl font-bold">CONTACT ME</h1>
         </div>
       </motion.div>
+
+      <div className="flex flex-col">
+        <input placeholder="Name"></input>
+        <input placeholder="Subject"></input>
+        <input placeholder="Message"></input>
+      </div>
     </div>
   );
 }
