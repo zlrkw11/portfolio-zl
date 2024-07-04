@@ -6,7 +6,7 @@ export default {
       colors: {
         "dark-0": "#272829",
         "dark-1": "#303841",
-        "dark-2": "#3A4750",
+        "dark-2": "#9a9a9a",
         cyan: "#00ADB5",
         "white-2": "EEEEEE",
       },
