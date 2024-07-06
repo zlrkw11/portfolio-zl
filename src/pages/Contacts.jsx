@@ -28,12 +28,14 @@ function Contacts() {
           <input
             required
             type="text"
+            name="name"
             placeholder="Name"
             className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:-translate-x-4 transition"
           ></input>
           <input
             required
             type="text"
+            name="subject"
             placeholder="Subject"
             className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:translate-x-4 transition"
           ></input>
