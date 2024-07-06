@@ -59,8 +59,8 @@ function Contacts() {
               Send
             </button>
           ) : (
-            <button className="cursor-not-allowed border-white border-2 rounded px-4 py-6">
-              Sent
+            <button className="cursor-not-allowed border-dark-2 border-2 rounded px-4 py-2 text-dark-2">
+              Sent!
             </button>
           )}
         </form>
