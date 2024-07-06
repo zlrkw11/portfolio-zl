@@ -51,9 +51,9 @@ function Contacts() {
           ></input>
           <button
             type="submit"
-            className={
-              "px-4 py-2 rounded border-dark-2 border-2 text-dark-2 box hover:border-white hover:text-white outline-none focus:border-white"
-            }
+            className={`px-4 py-2 rounded border-dark-2 border-2 text-dark-2 box hover:border-white hover:text-white outline-none focus:border-white ${
+              clicked && "cursor-default"
+            }`}
           >
             Send
           </button>
