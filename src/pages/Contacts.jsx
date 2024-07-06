@@ -1,5 +1,14 @@
 import emailjs from "@emailjs/browser";
 function Contacts() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_r8v8vhv", //service_id
+      "template_72vhxtq", // template_id
+      e.target,
+      "tRl_tRUBfRLeko-rI" // public_key);
+    );
+  };
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
       {/* <motion.div
