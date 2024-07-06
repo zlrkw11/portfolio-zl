@@ -59,7 +59,9 @@ function Contacts() {
               Send
             </button>
           ) : (
-            <button className="cursor-not-allowed">Sent</button>
+            <button className="cursor-not-allowed border-white border-2 rounded px-4 py-6">
+              Sent
+            </button>
           )}
         </form>
       </div>
