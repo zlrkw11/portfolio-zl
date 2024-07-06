@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 function Contacts() {
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
@@ -11,7 +12,10 @@ function Contacts() {
       </div>
 
       <div>
-        <form className="flex flex-col gap-4 items-center justify-center mt-8">
+        <form
+          onSubmit={sendEmail}
+          className="flex flex-col gap-4 items-center justify-center mt-8"
+        >
           <input
             required
             type="text"
