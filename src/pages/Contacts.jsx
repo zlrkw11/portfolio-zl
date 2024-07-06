@@ -29,30 +29,24 @@ function Contacts() {
           className="flex flex-col gap-4 items-center justify-center mt-8"
         >
           <input
-            required
-            type="text"
             name="name"
             placeholder="Name"
-            className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:-translate-x-4 transition"
+            className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-transparent hover:-translate-x-4 transition"
           ></input>
           <input
-            required
-            type="text"
             name="subject"
             placeholder="Subject"
-            className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:translate-x-4 transition"
+            className="px-4 py-2 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-transparent hover:translate-x-4 transition"
           ></input>
           <input
-            required
-            type="text"
             name="message"
             placeholder="Message For Z.L"
-            className="px-4 py-6 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-inherit hover:-translate-x-4 transition"
+            className="px-4 py-6 text-lg box text-white outline-none border-2 border-dark-2 rounded hover:border-white duration-200 peer focus:border-white bg-transparent hover:-translate-x-4 transition"
           ></input>
           <button
             type="submit"
             className={`px-4 py-2 rounded border-dark-2 border-2 text-dark-2 box hover:border-white hover:text-white outline-none focus:border-white ${
-              clicked && "cursor-not-allowed"
+              clicked && "cursor-not-allowed "
             }`}
           >
             Send
