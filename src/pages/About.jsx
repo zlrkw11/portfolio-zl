@@ -5,9 +5,9 @@ function About() {
   const opacity = useTransform(scrollYProgress, [0.3, 0.7], [1, 0]);
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
-      <div className=" flex-col flex gap-4 h-8 w-[800px]">
+      <div className=" flex-col flex gap-8 h-8 w-[800px] items-center justify-center">
         <motion.div
-          className="text-center text-white text-5xl font-bold"
+          className="text-white text-5xl font-bold mr-auto"
           style={{ opacity }}
         >
           About
