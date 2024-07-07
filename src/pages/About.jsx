@@ -5,14 +5,17 @@ function About() {
   const opacity = useTransform(scrollYProgress, [0.3, 0.7], [1, 0]);
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
-      <div className=" flex-col flex gap-8 h-8 w-[800px] items-center justify-center">
+      <div className=" flex-col flex gap-8 m-8 h-8 w-auto items-center justify-center">
         <motion.div
-          className="text-white text-5xl font-bold mr-auto"
+          className="text-white text-5xl font-bold mr-auto title"
           style={{ opacity }}
         >
           About
         </motion.div>
-        <motion.div className="text-white text-xl" style={{ opacity }}>
+        <motion.div
+          className="text-white text-xl md:w-[800px]"
+          style={{ opacity }}
+        >
           A deeply dedicated and enthusiastic second-year computer science
           student at the University of Auckland with a strong focus on front-end
           web development. Extremely passionate about web development and app
