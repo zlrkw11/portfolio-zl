@@ -31,13 +31,13 @@ function Navbar() {
           <a href="/" className="link">
             Start
           </a>
-          <a href="/" className="link">
+          <a href="/about" className="link">
             About z.l
           </a>
           <a href="/" className="link">
             Projects
           </a>
-          <a href="../pages/Contacts" className="link">
+          <a href="/contacts" className="link">
             Contacts
           </a>
         </div>
