@@ -14,8 +14,8 @@ function About() {
         </motion.div>
         <motion.div
           drag
-          dragConstraints={{ top: 0, bottom: 200, left: 0, right: 0 }}
-          className="text-white text-xl md:w-[800px]  "
+          dragConstraints={{ top: 0, bottom: 100, left: 0, right: 0 }}
+          className="text-white text-xl md:w-[800px]"
           style={{ opacity }}
         >
           A deeply <span className="title text-2xl">dedicated</span> and{" "}
@@ -25,10 +25,10 @@ function About() {
           <div className="h-8 "></div>
           <div className="">
             Extremely passionate about web development and app making, with
-            proven expertise in independent project building. Seeking an
-            internship role to leverage my skills in React.js, JavaScript, and
-            TypeScript while contributing to team projects and gaining
-            professional experience as I focus heavily on both team-building and
+            experience in independent project building. Seeking an internship
+            role to leverage my skills in React.js, JavaScript, and TypeScript
+            while contributing to team projects and gaining professional
+            experience as I focus heavily on both team-building and independent
             personal growth.
           </div>
         </motion.div>
