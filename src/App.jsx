@@ -1,5 +1,4 @@
 import "./styles/tailwind.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // pages
 import Main from "./pages/Main";
@@ -7,16 +6,19 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="">
+    <BrowserRouter>
       <Navbar />
-      <Main />
-      <About />
-      <Contacts />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <About />
+        <Contacts />
+        <Footer />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

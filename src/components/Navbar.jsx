@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Dragon from "../assets/icons/dragon.svg?react";
 import Burger from "../assets/icons/burger.svg?react";
+
 function Navbar() {
   const [isExpanded, setIsExpanded] = useState(false);
   function handleOnClick() {
