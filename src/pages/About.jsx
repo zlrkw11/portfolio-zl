@@ -13,6 +13,8 @@ function About() {
           About
         </motion.div>
         <motion.div
+          drag
+          dragConstraints={{ top: 0, bottom: 200, left: 0, right: 0 }}
           className="text-white text-xl md:w-[800px]  "
           style={{ opacity }}
         >
@@ -21,7 +23,7 @@ function About() {
           computer science student at the University of Auckland with a strong
           focus on front-end web development.
           <div className="h-8 "></div>
-          <div className="hover:translate-x-16 duration-300 transition">
+          <div className="">
             Extremely passionate about web development and app making, with
             proven expertise in independent project building. Seeking an
             internship role to leverage my skills in React.js, JavaScript, and
