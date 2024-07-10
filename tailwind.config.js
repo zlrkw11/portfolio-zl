@@ -105,7 +105,7 @@ export default {
       text: {
         from: {
           opacity: "0",
-          transform: "translateY(-800%)",
+          transform: "translateY(-10px)",
         },
         to: {
           opacity: "1",
