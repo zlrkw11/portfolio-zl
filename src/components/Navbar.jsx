@@ -29,10 +29,18 @@ function Navbar() {
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
-          <Link to="/">Start</Link>
-          <Link to="/about">About z.l</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contacts">Contacts</Link>
+          <Link to="/" className="link">
+            Start
+          </Link>
+          <Link to="/about" className="link">
+            About z.l
+          </Link>
+          <Link to="/projects" className="link">
+            Projects
+          </Link>
+          <Link to="/contacts" className="link">
+            Contacts
+          </Link>
         </div>
       </div>
 
@@ -48,10 +56,18 @@ function Navbar() {
           close
         </button>
         <div className="flex flex-col p-4 gap-4 ">
-          <Link to="/">Start</Link>
-          <Link to="/about">About z.l</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contacts">Contacts</Link>
+          <Link to="/" className="link">
+            Start
+          </Link>
+          <Link to="/about" className="link">
+            About z.l
+          </Link>
+          <Link to="/projects" className="link">
+            Projects
+          </Link>
+          <Link to="/contacts" className="link">
+            Contacts
+          </Link>
         </div>
       </div>
     </div>
