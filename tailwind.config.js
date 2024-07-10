@@ -149,10 +149,10 @@ export default {
           transform: "translateY(-20%)",
         },
         "50%, 70%": {
-          transform: "translateY(-40%)",
+          transform: "translateY(-42%)",
         },
         "75%, 95%": {
-          transform: "translateY(-60%)",
+          transform: "translateY(-62%)",
         },
         "100%": {
           transform: "translateY(-80%)",
