@@ -143,10 +143,10 @@ export default {
       },
       "text-slide-4": {
         "0%, 20%": {
-          transform: "translateY(0%)",
+          transform: "translateY(-2%)",
         },
         "25%, 45%": {
-          transform: "translateY(-20%)",
+          transform: "translateY(-22%)",
         },
         "50%, 70%": {
           transform: "translateY(-42%)",
@@ -155,7 +155,7 @@ export default {
           transform: "translateY(-62%)",
         },
         "100%": {
-          transform: "translateY(-80%)",
+          transform: "translateY(-82%)",
         },
       },
       "text-slide-5": {
