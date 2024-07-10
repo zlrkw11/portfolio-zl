@@ -48,18 +48,10 @@ function Navbar() {
           close
         </button>
         <div className="flex flex-col p-4 gap-4 ">
-          <a className="link" href="/">
-            Start
-          </a>
-          <a href="/about" className="link">
-            About z.l
-          </a>
-          <a href="/" className="link">
-            Projects
-          </a>
-          <a href="/contacts" className="link">
-            Contacts
-          </a>
+          <Link to="/">Start</Link>
+          <Link to="/about">About z.l</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contacts">Contacts</Link>
         </div>
       </div>
     </div>
