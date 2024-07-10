@@ -1,4 +1,3 @@
-import { px } from "framer-motion";
 import Intro from "../components/Intro";
 import Skills from "../components/Skills";
 
