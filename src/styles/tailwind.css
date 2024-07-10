@@ -36,3 +36,18 @@
     @apply drop-shadow;
   }
 }
+
+@keyframes blurAnimation {
+  0% {
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+.animated-blur {
+  animation: blurAnimation 5s infinite;
+}

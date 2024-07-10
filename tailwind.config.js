@@ -99,8 +99,19 @@ export default {
         "text-slide-8 20s cubic-bezier(0.83, 0, 0.17, 1) infinite",
       typing: "typing 3s steps(60), blink .6s",
       "loop-scroll": "loop-scroll 5s linear infinite",
+      text: "text .5s forwards",
     },
     keyframes: {
+      text: {
+        from: {
+          opacity: "0",
+          transform: "translateY(-800%)",
+        },
+        to: {
+          opacity: "1",
+          transform: "translateY(0)",
+        },
+      },
       "loop-scroll": {
         from: { transform: "translateX(0)" },
         to: { transform: "translateX(-100%)" },
