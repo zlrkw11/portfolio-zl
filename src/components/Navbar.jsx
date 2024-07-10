@@ -29,18 +29,10 @@ function Navbar() {
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ml-auto md:mr-8 gap-4`}>
-          <a href="/" className="link">
-            Start
-          </a>
-          <a href="/about" className="link">
-            About z.l
-          </a>
-          <a href="/" className="link">
-            Projects
-          </a>
-          <a href="/contacts" className="link">
-            Contacts
-          </a>
+          <Link to="/">Start</Link>
+          <Link to="/about">About z.l</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/contacts">Contacts</Link>
         </div>
       </div>
 
