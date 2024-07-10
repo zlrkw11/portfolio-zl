@@ -1,12 +1,15 @@
 import Intro from "../components/Intro";
 import Skills from "../components/Skills";
+import Background from "./Background";
+import Navbar from "../components/Navbar";
 
 function Main() {
   return (
-    <div className="bg-dark-0 flex flex-col items-center justify-center area">
+    <Background>
+      <Navbar />
       <Intro />
       <Skills />
-    </div>
+    </Background>
   );
 }
 
