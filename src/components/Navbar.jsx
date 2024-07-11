@@ -13,7 +13,7 @@ function Navbar() {
       <div className="md:flex fixed w-full backdrop-blur-md py-2 text-white gap-4 shadow-lg items-center grid-cols-2 grid">
         <div className="grid grid-col md:grid-cols-2 items-center gap-4">
           <Dragon
-            className="w-12 fill-white md:w-12 ml-4 pt-2"
+            className="w-12 fill-white md:w-12 ml-4 pt-2 transition hover:translate-x-8 duration-300 ease-in"
             style={{
               filter:
                 "drop-shadow(0 0 5px #ffffff) drop-shadow(0 0 25px #ffffff) drop-shadow(0 0 50px #ffffff) drop-shadow(0 0 100px #ffffff)",
@@ -45,7 +45,7 @@ function Navbar() {
       </div>
 
       <div
-        className={`fixed top-0 left-0 w-24 text-white h-full backdrop-blur-md bg-dark-0 transform ${
+        className={`fixed top-0 left-0 w-24 text-white h-full  bg-dark-0 transform ${
           isExpanded ? "translate-x-0 shadow-lg" : "-translate-x-24"
         } transition-transform duration-300 ease-in-out md:hidden gap-4 `}
       >
@@ -55,7 +55,7 @@ function Navbar() {
         >
           close
         </button>
-        <div className="flex flex-col p-4 gap-4 ">
+        <div className="flex flex-col p-4 gap-4">
           <Link to="/" className="link">
             Start
           </Link>
