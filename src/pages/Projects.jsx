@@ -1,14 +1,15 @@
 //import image links
-const Project = (image, text) => {
+const Project = ({ image, text }) => {
   return (
     <div className="border border-black w-[400px] h-[200px] flex items-center">
       <div className="w-[30%] border border-white h-auto m-2">
-        image section
+        <img
+          src={image}
+          alt="Project image"
+          className="w-full h-full object-cover"
+        />
       </div>
-      <div className="w-[70%] border border-white h-auto p-2 m-2">
-        Project with the University of Auckland Snowsports Club Website &
-        Booking System. Established in 2023.
-      </div>
+      <div className="w-[70%] border border-white h-auto p-2 m-2">{text}</div>
     </div>
   );
 };
