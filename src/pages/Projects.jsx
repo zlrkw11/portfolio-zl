@@ -26,7 +26,7 @@ const Clicker = ({ text }) => {
     <>
       <div
         onClick={handleOnClick}
-        className="border border-neutral-400 text-neutral-500 px-4 py-2 font-semibold rounded-b-lg bg-neutral-700 hover:bg-neutral-400 duration-300 hover:text-white"
+        className="border border-neutral-400 hover:border-white text-neutral-500 px-4 py-2 font-semibold rounded-b-lg bg-neutral-700 hover:bg-neutral-400 duration-300 hover:text-white"
       >
         {expand ? "collapse" : "expand"}
       </div>
