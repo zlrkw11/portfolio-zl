@@ -16,20 +16,22 @@ const Project = ({ image, text }) => {
   );
 };
 
-const Clicker = () => {
+const Clicker = ({ text }) => {
   const [expand, setExpanded] = useState(false);
 
   const handleOnClick = () => {
     setExpanded((prevExpand) => !prevExpand);
   };
   return (
-    <div
-      onClick={handleOnClick}
-      className="border border-white px-4 py-2 rounded-b-lg"
-    >
-      {expand ? "collapse" : "expand"}
-      <div>{expand && <p>this is expanded content</p>}</div>
-    </div>
+    <>
+      <div
+        onClick={handleOnClick}
+        className="border border-neutral-400 text-neutral-500 px-4 py-2 font-semibold rounded-b-lg bg-neutral-700 hover:bg-neutral-400 duration-300 hover:text-white"
+      >
+        {expand ? "collapse" : "expand"}
+      </div>
+      <div>{expand && <p>{text}</p>}</div>
+    </>
   );
 };
 
@@ -42,7 +44,7 @@ const ProjectSection = () => {
         image={UASC}
         text="Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023."
       />
-      <Clicker />
+      <Clicker text="ray" />
     </div>
   );
 };
