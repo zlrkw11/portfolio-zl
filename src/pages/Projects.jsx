@@ -15,6 +15,13 @@ const Project = ({ image, text }) => {
     </div>
   );
 };
+
+const Clicker = () => {
+  return (
+    <div className="border border-white px-4 py-2 rounded-b-lg">expand</div>
+  );
+};
+
 const ProjectSection = () => {
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
@@ -24,6 +31,7 @@ const ProjectSection = () => {
         image={UASC}
         text="Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023."
       />
+      <Clicker />
     </div>
   );
 };
