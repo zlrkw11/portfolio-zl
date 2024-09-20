@@ -3,15 +3,15 @@ import UASC from "../assets/uasc.png";
 
 const Project = ({ image, text }) => {
   return (
-    <div className="border border-black w-[800px] h-[300px] flex items-center p-8 rounded-lg">
-      <div className=" border border-white h-auto m-2">
+    <div className="border border-white w-[800px] h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
+      <div className="h-auto m-2 ">
         <img
           src={image}
           alt="Project image"
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="w-[70%] border border-white h-auto p-2 m-2">{text}</div>
+      <div className="w-[70%] text-white mb-auto p-2 m-2 text-2xl">{text}</div>
     </div>
   );
 };
