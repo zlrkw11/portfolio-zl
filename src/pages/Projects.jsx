@@ -1,6 +1,6 @@
 //import image links
 import UASC from "../assets/uasc.png";
-
+import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
     <div className="border border-white w-[800px] h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
@@ -17,8 +17,19 @@ const Project = ({ image, text }) => {
 };
 
 const Clicker = () => {
+  const [expand, setExpanded] = useState(false);
+
+  const handleOnClick = () => {
+    setExpanded((prevExpand) => !prevExpand);
+  };
   return (
-    <div className="border border-white px-4 py-2 rounded-b-lg">expand</div>
+    <div
+      onClick={handleOnClick}
+      className="border border-white px-4 py-2 rounded-b-lg"
+    >
+      {expand ? "collapse" : "expand"}
+      <div>{expand && <p>this is expanded content</p>}</div>
+    </div>
   );
 };
 
