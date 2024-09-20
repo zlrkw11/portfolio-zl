@@ -1,0 +1,1 @@
+# The files from this folder are not being applied to the actual pages, just a reference to what I have learnt along 
