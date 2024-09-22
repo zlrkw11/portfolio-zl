@@ -33,9 +33,15 @@ const Clicker = ({ link, name }) => {
       </div>
       <div>
         {expand && (
-          <a href={link} className="text-white">
-            {name}
-          </a>
+          <div className="border-t-2 border-b-2 border-white border-opacity-40 hover:border-opacity-100 duration-500 px-4 py-8 rounded-lg">
+            <a
+              href={link}
+              className="text-neutral-500 underline hover:text-white duration-200"
+            >
+              {name}
+            </a>
+            {/* can add more description here */}
+          </div>
         )}
       </div>
     </>
