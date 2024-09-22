@@ -43,6 +43,13 @@ const ProjectSection = () => {
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const handleClick = () => {
+    if (currentIndex < projects.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    } else {
+      setCurrentIndex(0);
+    }
+  };
 
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
@@ -54,7 +61,10 @@ const ProjectSection = () => {
       />
       <Clicker text="ray" />
       <div>
-        <button className="px-8 py-4 border border-white bg-white rounded-lg">
+        <button
+          className="px-8 py-4 border border-white bg-white rounded-lg"
+          onClick={handleClick}
+        >
           NEXT
         </button>
       </div>
