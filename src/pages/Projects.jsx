@@ -17,7 +17,7 @@ const Project = ({ image, text }) => {
   );
 };
 
-const Clicker = ({ text }) => {
+const Clicker = ({ link }) => {
   const [expand, setExpanded] = useState(false);
 
   const handleOnClick = () => {
@@ -31,7 +31,7 @@ const Clicker = ({ text }) => {
       >
         {expand ? "collapse" : "expand"}
       </div>
-      <div>{expand && <p className="text-white">{text}</p>}</div>
+      <div>{expand && <p className="text-white">{link}</p>}</div>
     </>
   );
 };
@@ -48,6 +48,8 @@ const ProjectSection = () => {
     },
     { image: "", text: "COCK" },
   ];
+
+  const links = ["", "", ""];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const handleClick = () => {
@@ -66,7 +68,7 @@ const ProjectSection = () => {
         image={projects[currentIndex].image}
         text={projects[currentIndex].text}
       />
-      <Clicker text="ray" />
+      <Clicker link={links[currentIndex]} />
       <div>
         <button
           className="px-8 py-4 border-2 border-white text-white bg-neutral-700 rounded-lg hover:bg-white color: hover:text-neutral-500 duration-500"
