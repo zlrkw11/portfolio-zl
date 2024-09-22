@@ -36,6 +36,8 @@ const Clicker = ({ text }) => {
 };
 
 const ProjectSection = () => {
+  const projects = [{ image: UASC, text: "" }];
+
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
       <h1 className="text-white text-3xl mb-8">Projects</h1>
