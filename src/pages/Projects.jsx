@@ -5,14 +5,14 @@ import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
     <div className="border border-white w-[800px] h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
-      <div className="h-auto m-2 ">
+      <div className="m-2 w-[900px]">
         <img
           src={image}
           alt="Project image"
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="w-[70%] text-white mb-auto p-2 m-2 text-2xl">{text}</div>
+      <div className=" text-white mb-auto p-2 mt-8 my-2 text-2xl ">{text}</div>
     </div>
   );
 };
