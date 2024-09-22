@@ -42,6 +42,8 @@ const ProjectSection = () => {
     { image: "", text: "" },
   ];
 
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
       <h1 className="text-white text-3xl mb-8">Projects</h1>
@@ -51,6 +53,11 @@ const ProjectSection = () => {
         text="Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023."
       />
       <Clicker text="ray" />
+      <div>
+        <button className="px-8 py-4 border border-white bg-white rounded-lg">
+          NEXT
+        </button>
+      </div>
     </div>
   );
 };
