@@ -1,6 +1,7 @@
 //import image links
 import UASC from "../assets/uasc.png";
 import ZL from "../assets/ZL.png";
+import DigitalGarden from "../assets/dg.jpg";
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
@@ -17,7 +18,7 @@ const Project = ({ image, text }) => {
   );
 };
 
-const Clicker = ({ link, name }) => {
+const Clicker = ({ link, name, linkDes }) => {
   const [expand, setExpanded] = useState(false);
 
   const handleOnClick = () => {
@@ -34,6 +35,7 @@ const Clicker = ({ link, name }) => {
       <div>
         {expand && (
           <div className="border-t-2 border-b-2 border-white border-opacity-40 hover:border-opacity-100 duration-500 px-4 py-8 rounded-lg">
+            <p className="text-white font-bold">{linkDes}</p>
             <a
               href={link}
               className="text-neutral-500 underline hover:text-white duration-200"
@@ -55,14 +57,22 @@ const ProjectSection = () => {
       image: UASC,
       text: "Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023.",
       link: "https://uasc.co.nz/",
+      linkDes: "Go to the website",
     },
     {
       name: "ZL's portfolio",
       image: ZL,
       text: "Personal portfolio designed, developed and deployed all independently using React.js & Tailwind CSS. (This one if you can't tell)",
       link: "https://zlrkw11.github.io/portfolio-zl",
+      linkDes: "Ur already on it",
     },
-    { image: "", text: "COCK" },
+    {
+      name: "Digital Garden",
+      image: DigitalGarden,
+      text: "Group project for Google Developer Student Club's Hackathon at the University of Auckland. Online multiplayer game made with React.",
+      link: "https://github.com/Oculux314/digital-garden",
+      linkDes: "Check out the GitHub repo (cuz its not completed)",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -85,6 +95,7 @@ const ProjectSection = () => {
       <Clicker
         link={projects[currentIndex].link}
         name={projects[currentIndex].name}
+        linkDes={projects[currentIndex].linkDes}
       />
       <div>
         <button
