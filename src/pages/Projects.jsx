@@ -30,7 +30,7 @@ const Clicker = ({ text }) => {
       >
         {expand ? "collapse" : "expand"}
       </div>
-      <div>{expand && <p>{text}</p>}</div>
+      <div>{expand && <p className="text-white">{text}</p>}</div>
     </>
   );
 };
@@ -65,7 +65,7 @@ const ProjectSection = () => {
       <Clicker text="ray" />
       <div>
         <button
-          className="px-8 py-4 border border-white bg-white rounded-lg"
+          className="px-8 py-4 border-2 border-white text-white bg-neutral-700 rounded-lg hover:bg-white color: hover:text-neutral-500 duration-500"
           onClick={handleClick}
         >
           NEXT
