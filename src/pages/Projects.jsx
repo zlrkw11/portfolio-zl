@@ -37,7 +37,10 @@ const Clicker = ({ text }) => {
 
 const ProjectSection = () => {
   const projects = [
-    { image: UASC, text: "" },
+    {
+      image: UASC,
+      text: "Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023.",
+    },
     { image: "", text: "" },
     { image: "", text: "" },
   ];
@@ -56,8 +59,8 @@ const ProjectSection = () => {
       <h1 className="text-white text-3xl mb-8">Projects</h1>
 
       <Project
-        image={UASC}
-        text="Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023."
+        image={projects[currentIndex].image}
+        text={projects[currentIndex].text}
       />
       <Clicker text="ray" />
       <div>
