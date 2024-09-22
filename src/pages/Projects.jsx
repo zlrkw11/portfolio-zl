@@ -1,5 +1,6 @@
 //import image links
 import UASC from "../assets/uasc.png";
+import ZL from "../assets/ZL.png";
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
@@ -41,8 +42,11 @@ const ProjectSection = () => {
       image: UASC,
       text: "Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023.",
     },
-    { image: "", text: "" },
-    { image: "", text: "" },
+    {
+      image: ZL,
+      text: "Personal portfolio designed, developed and deployed all independently using React.js & Tailwind CSS. (This one if you can't tell)",
+    },
+    { image: "", text: "COCK" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
