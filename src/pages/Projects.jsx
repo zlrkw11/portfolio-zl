@@ -2,7 +2,7 @@
 import UASC from "../assets/uasc.png";
 import ZL from "../assets/ZL.png";
 import DigitalGarden from "../assets/dg.jpg";
-import Hackathon from "../assets/gallery/DSC_0789.jpg";
+import Hackathon from "../assets/gallery/DSC_0789.png";
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
@@ -19,7 +19,7 @@ const Project = ({ image, text }) => {
   );
 };
 
-const Clicker = ({ link, name, linkDes, currentIndex }) => {
+const Clicker = ({ link, name, linkDes, index }) => {
   const [expand, setExpanded] = useState(false);
 
   const handleOnClick = () => {
@@ -43,8 +43,13 @@ const Clicker = ({ link, name, linkDes, currentIndex }) => {
             >
               {name}
             </a>
-            {currentIndex === 1 && <img src={Hackathon} alt=":D" />}
-
+            {index === 2 && (
+              <img
+                className="w-[550px] object-cover mt-2"
+                src={Hackathon}
+                alt=":D"
+              />
+            )}
             {/* can add more description here */}
           </div>
         )}
@@ -99,6 +104,7 @@ const ProjectSection = () => {
         link={projects[currentIndex].link}
         name={projects[currentIndex].name}
         linkDes={projects[currentIndex].linkDes}
+        index={currentIndex}
       />
       <div>
         <button
