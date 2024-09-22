@@ -17,7 +17,7 @@ const Project = ({ image, text }) => {
   );
 };
 
-const Clicker = ({ link }) => {
+const Clicker = ({ link, name }) => {
   const [expand, setExpanded] = useState(false);
 
   const handleOnClick = () => {
@@ -31,7 +31,13 @@ const Clicker = ({ link }) => {
       >
         {expand ? "collapse" : "expand"}
       </div>
-      <div>{expand && <p className="text-white">{link}</p>}</div>
+      <div>
+        {expand && (
+          <a href={link} className="text-white">
+            {name}
+          </a>
+        )}
+      </div>
     </>
   );
 };
@@ -39,17 +45,19 @@ const Clicker = ({ link }) => {
 const ProjectSection = () => {
   const projects = [
     {
+      name: "UASC website",
       image: UASC,
       text: "Project with the University of Auckland Snowsports Club Website & Booking System. Established in 2023.",
+      link: "https://uasc.co.nz/",
     },
     {
+      name: "ZL's portfolio",
       image: ZL,
       text: "Personal portfolio designed, developed and deployed all independently using React.js & Tailwind CSS. (This one if you can't tell)",
+      link: "https://zlrkw11.github.io/portfolio-zl",
     },
     { image: "", text: "COCK" },
   ];
-
-  const links = ["", "", ""];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const handleClick = () => {
@@ -68,7 +76,10 @@ const ProjectSection = () => {
         image={projects[currentIndex].image}
         text={projects[currentIndex].text}
       />
-      <Clicker link={links[currentIndex]} />
+      <Clicker
+        link={projects[currentIndex].link}
+        name={projects[currentIndex].name}
+      />
       <div>
         <button
           className="px-8 py-4 border-2 border-white text-white bg-neutral-700 rounded-lg hover:bg-white color: hover:text-neutral-500 duration-500"
