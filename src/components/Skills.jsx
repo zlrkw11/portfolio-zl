@@ -4,7 +4,7 @@ function Skills() {
       <div className="text-white title"> I develop with </div>
 
       <div className="text-white inline-flex flex-col h-[calc(theme(fontSize.xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
-        <div className="animate-text-slide-4 text-left leading-tight">
+        <div className="animate-text-slide-4 text-left leading-tight md:m-0 pt-1">
           <div>React</div>
           <div>JavaScript</div>
           <div>TypeScript</div>
