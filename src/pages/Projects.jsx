@@ -6,15 +6,17 @@ import Hackathon from "../assets/gallery/DSC_0789.png";
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
-    <div className="border border-white max-w-[800px] max-h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
-      <div className="m-2 max-w-[900px]">
+    <div className="border border-white max-w-[800px] lg:h-[300px] md:h-[200px] h-[300px] md:flex md:items-center bg-neutral-900 p-8 rounded-lg">
+      <div className="m-2 w-[240px] md:w-[550px] lg:w-[700px] flex justify-center items-center">
         <img
           src={image}
           alt="Project image"
           className="w-full h-full object-cover"
         />
       </div>
-      <div className=" text-white mb-auto p-2 mt-8 my-2 text-2xl ">{text}</div>
+      <div className=" text-white p-2 text-xs lg:text-2xl md:text-lg flex justify-center items-center">
+        {text}
+      </div>
     </div>
   );
 };
@@ -93,7 +95,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
+    <div className="min-w-screen min-h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
       <h1 className="text-white text-3xl mb-8 font-inter">Projects</h1>
 
       <Project
