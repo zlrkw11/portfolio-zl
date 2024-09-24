@@ -17,7 +17,7 @@ const Project = ({ image, text }) => {
           />
         </div>
       </div>
-      <div className=" text-white p-2 text-xs lg:text-2xl md:text-lg flex justify-center items-center">
+      <div className=" text-white p-2 text-lg lg:text-2xl md:text-lg flex justify-center items-center">
         {text}
       </div>
     </div>
@@ -34,7 +34,7 @@ const Clicker = ({ link, name, linkDes, index }) => {
     <>
       <div
         onClick={handleOnClick}
-        className="border border-neutral-400 hover:border-white text-neutral-500 px-4 py-2 font-semibold rounded-b-lg bg-neutral-700 hover:bg-neutral-400 duration-300 hover:text-white"
+        className="border cursor-pointer border-neutral-400 hover:border-white text-neutral-500 px-4 py-2 font-semibold rounded-b-lg bg-neutral-700 hover:bg-neutral-400 duration-300 hover:text-white"
       >
         {expand ? "collapse" : "expand"}
       </div>
