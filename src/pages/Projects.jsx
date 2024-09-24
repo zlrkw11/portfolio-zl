@@ -6,8 +6,8 @@ import Hackathon from "../assets/gallery/DSC_0789.png";
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
-    <div className="border border-white w-[800px] h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
-      <div className="m-2 w-[900px]">
+    <div className="border border-white max-w-[800px] max-h-[300px] flex items-center bg-neutral-900 p-8 rounded-lg">
+      <div className="m-2 max-w-[900px]">
         <img
           src={image}
           alt="Project image"
@@ -93,7 +93,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
+    <div className="w-full min-h-screen bg-dark-0 flex flex-col justify-center items-center gap-4">
       <h1 className="text-white text-3xl mb-8 font-inter">Projects</h1>
 
       <Project
