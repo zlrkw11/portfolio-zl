@@ -7,12 +7,15 @@ import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
     <div className="border border-white max-w-[800px] lg:h-[300px] md:h-[200px] h-[300px] md:flex md:items-center bg-neutral-900 p-8 rounded-lg">
-      <div className="m-2 w-[240px] md:w-[550px] lg:w-[700px] flex justify-center items-center">
-        <img
-          src={image}
-          alt="Project image"
-          className="w-full h-full object-cover"
-        />
+      <div className="m-2 w-full md:w-[550px] lg:w-[700px] flex items-center justify-center">
+        <div>
+          {" "}
+          <img
+            src={image}
+            alt="Project image"
+            className="md:w-full w-[200px] object-cover"
+          />
+        </div>
       </div>
       <div className=" text-white p-2 text-xs lg:text-2xl md:text-lg flex justify-center items-center">
         {text}
