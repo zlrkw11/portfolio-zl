@@ -19,7 +19,10 @@ function About() {
             personal growth.
           </div>
         </div>
-        <MusicPlayer />
+        <div className="text-white">
+          <p className="mb-2">A song to share:</p>
+          <MusicPlayer />
+        </div>
       </div>
     </div>
   );
