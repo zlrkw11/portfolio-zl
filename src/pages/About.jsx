@@ -1,3 +1,4 @@
+import MusicPlayer from "../components/MusicPlayer";
 function About() {
   return (
     <div className="w-full h-screen bg-dark-0 flex flex-col justify-center items-center">
@@ -18,6 +19,7 @@ function About() {
             personal growth.
           </div>
         </div>
+        <MusicPlayer />
       </div>
     </div>
   );
