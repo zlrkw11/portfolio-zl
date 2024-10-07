@@ -98,7 +98,7 @@ const ProjectSection = () => {
   };
 
   return (
-    <div className="min-w-screen min-h-screen bg-dark-0 flex flex-col justify-center items-center gap-4 mb-16">
+    <div className="min-w-screen min-h-[125dvh] bg-dark-0 flex flex-col justify-center items-center gap-4 mb-16">
       <h1 className="text-white text-3xl mb-8 font-inter">Projects</h1>
 
       <Project
