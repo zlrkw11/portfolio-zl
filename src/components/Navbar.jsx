@@ -22,7 +22,7 @@ function Navbar() {
         </div>
         <div className="flex items-center">
           <button
-            className="text-white ml-auto mr-[35%] md:hidden"
+            className="text-white ml-auto mr-4 md:hidden"
             onClick={handleOnClick}
           >
             <Burger className="w-8 h-8 icon" />
