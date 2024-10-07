@@ -3,7 +3,7 @@ import Skills from "../components/Skills";
 
 function Main() {
   return (
-    <div className="bg-dark-0 w-full flex flex-col justify-center items-center h-screen">
+    <div className="bg-dark-0 min-w-screen min-h-screen flex flex-col justify-center items-center">
       <Intro />
       <Skills />
     </div>

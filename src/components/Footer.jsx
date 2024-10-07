@@ -23,7 +23,7 @@ function Footer() {
         />
       </button>
       {/* svg icon links */}
-      <div className="hidden md:flex gap-8 group items-center ml-auto mr-8">
+      <div className="hidden md:flex gap-8 group items-center ml-auto md:mr-8">
         <a href="https://github.com/zlrkw11" className="">
           <Github className="fill-white w-8 cursor-pointer icon" />
         </a>
