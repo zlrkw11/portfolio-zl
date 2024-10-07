@@ -1,7 +1,7 @@
 import MusicPlayer from "../components/MusicPlayer";
 function About() {
   return (
-    <div className="min-w-screen min-h-[150dvh] justify-center overflow-y-auto bg-dark-0 flex flex-col">
+    <div className="min-w-screen min-h-[140dvh] justify-center overflow-y-auto bg-dark-0 flex flex-col">
       <div className=" flex-col flex gap-8 m-8 h-8 w-auto items-center justify-center">
         <div className="text-white text-5xl font-bold mr-auto title">About</div>
         <div className="text-white text-xl md:w-[800px]">
