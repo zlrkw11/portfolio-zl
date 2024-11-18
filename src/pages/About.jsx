@@ -13,7 +13,7 @@ function About() {
           <div className="text-white text-5xl font-bold mr-auto mb-4 title">
             About
           </div>
-          <div className="text-white text-xl md:w-[800px] border-b-2 py-2">
+          <div className="text-white text-xl min-w-[300px] md:min-w-[800px] lg:max-w-[1000px] border-b-2 py-2">
             <Pfp fileId="12x_wVXjJ03ZPrE9QUfeawGDJgynIG2HO" />
             <div className="flex flex-col gap-4">
               <div className="border-b-2 py-2">
@@ -26,8 +26,8 @@ function About() {
               </div>
               <div className="border-b-2 py-2">
                 <h1 className="text-2xl">hobbies: </h1>
-                <h2 className="whitespace-nowrap">
-                  sleeping, gaming, web-dev,
+                <h2 className="">
+                  sleeping, gaming,
                   <span className="line-through inline-block">
                     (league of legends)
                   </span>
