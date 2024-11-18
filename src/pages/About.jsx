@@ -1,4 +1,5 @@
 import MusicPlayer from "../components/MusicPlayer";
+import Sona from "../assets/icons/sona.png";
 function About() {
   return (
     <div className="min-w-screen min-h-[120dvh] justify-center overflow-y-auto bg-dark-0 flex flex-col">
@@ -8,18 +9,28 @@ function About() {
             About
           </div>
           <div className="text-white text-xl md:w-[800px]">
-            A deeply <span className="title text-2xl">dedicated</span> and{" "}
-            <span className="title text-2xl">enthusiastic</span> second-year
-            computer science student at the University of Auckland with a strong
-            focus on front-end web development.
-            <div className="h-8 "></div>
-            <div className="">
-              Extremely passionate about web development and app making, with
-              experience in independent project building. Seeking an internship
-              role to leverage my skills in React.js, JavaScript, and TypeScript
-              while contributing to team projects and gaining professional
-              experience as I focus heavily on both team-building and
-              independent personal growth.
+            <div className="flex flex-col gap-4">
+              <div>
+                <h1 className="text-2xl">name:</h1>
+                <h2>Ray Zhao</h2>
+              </div>
+              <div>
+                <h1 className="text-2xl">hobbies: </h1>
+                <h2 className="">
+                  sleeping, gaming{" "}
+                  <p className="line-through">(league of legends)</p>, listening
+                  to music
+                </h2>
+              </div>
+              <div>
+                <h1 className="text-2xl">links: </h1>
+                <a href="">
+                  <img className="w-16" src={Sona} />{" "}
+                  <p className="text-blue-600 hover:text-white font-bold w-4">
+                    OPGG
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
