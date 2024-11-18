@@ -7,7 +7,7 @@ const Pfp = ({ fileId }) => {
 };
 function About() {
   return (
-    <div className="min-w-screen min-h-[120dvh] justify-center overflow-y-auto bg-dark-0 flex flex-col">
+    <div className="min-w-screen min-h-[120dvh] justify-center overflow-hidden bg-dark-0 flex flex-col">
       <div className=" flex-col flex gap-8 m-8 h-8 w-auto items-center justify-center">
         <div>
           <div className="text-white text-5xl font-bold mr-auto mb-4 title">
