@@ -27,7 +27,7 @@ function About() {
               <div className="border-b-2 py-2">
                 <h1 className="text-2xl">hobbies: </h1>
                 <h2 className="">
-                  sleeping, gaming,
+                  sleeping, gaming
                   <span className="line-through inline-block">
                     (league of legends)
                   </span>
