@@ -48,6 +48,13 @@ const Clicker = ({ link, name, linkDes, index }) => {
             >
               {name}
             </a>
+            {index === 2 && (
+              <img
+                className="w-full max-w-[550px] object-cover mt-2"
+                src={Hackathon}
+                alt=":D"
+              />
+            )}
             {/* can add more description here */}
           </div>
         )}
