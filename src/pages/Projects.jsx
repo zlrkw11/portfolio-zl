@@ -2,7 +2,7 @@
 import UASC from "../assets/uasc.png";
 import ZL from "../assets/ZL.png";
 import DigitalGarden from "../assets/dg.jpg";
-import Hackathon from "../assets/gallery/DSC_0789.png";
+
 import { useState } from "react";
 const Project = ({ image, text }) => {
   return (
@@ -48,13 +48,7 @@ const Clicker = ({ link, name, linkDes, index }) => {
             >
               {name}
             </a>
-            {index === 2 && (
-              <img
-                className="w-full max-w-[550px] object-cover mt-2"
-                src={Hackathon}
-                alt=":D"
-              />
-            )}
+
             {/* can add more description here */}
           </div>
         )}
