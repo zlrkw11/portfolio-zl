@@ -18,7 +18,7 @@ function About() {
             <div className="flex flex-col gap-4">
               <div className="border-b-2 py-2">
                 <h1 className="text-2xl">name:</h1>
-                <h2>Ray Zhao</h2>
+                <h2>zl</h2>
               </div>
               <div className="border-b-2 py-2">
                 <h1 className="text-2xl">birth date:</h1>
