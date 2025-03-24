@@ -54,10 +54,10 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="text-white">
+        {/* <div className="text-white">
           <p className="mb-2">A song to share:</p>
           <MusicPlayer />
-        </div>
+        </div> */}
       </div>
     </div>
   );
